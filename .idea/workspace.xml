@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="090e5ed4-21fc-4e85-9af5-6490fc8d9c04" name="Changes" comment="Day 3 – Main osztály elkészítve">
+    <list default="true" id="090e5ed4-21fc-4e85-9af5-6490fc8d9c04" name="Changes" comment="Day 6 – Validációk és hibakezelés hozzáadva">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autokolcsonzo.py" beforeDir="false" afterPath="$PROJECT_DIR$/autokolcsonzo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/berles.py" beforeDir="false" afterPath="$PROJECT_DIR$/berles.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/szemelyauto.py" beforeDir="false" afterPath="$PROJECT_DIR$/szemelyauto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teherauto.py" beforeDir="false" afterPath="$PROJECT_DIR$/teherauto.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +76,7 @@
       <workItem from="1777374412169" duration="2457000" />
       <workItem from="1778319167324" duration="669000" />
       <workItem from="1778582907576" duration="1553000" />
-      <workItem from="1779089929847" duration="601000" />
+      <workItem from="1779089929847" duration="1804000" />
     </task>
     <task id="LOCAL-00001" summary="Day 1 – Projekt struktúra létrehozva">
       <option name="closed" value="true" />
@@ -105,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778589297312</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Day 6 – Validációk és hibakezelés hozzáadva">
+      <option name="closed" value="true" />
+      <created>1779090643519</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1779090643519</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,9 +129,10 @@
     <MESSAGE value="Day 3 – Berles osztály elkészítve" />
     <MESSAGE value="Day 3 – Autokolcsonzo osztály elkészítve" />
     <MESSAGE value="Day 3 – Main osztály elkészítve" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 3 – Main osztály elkészítve" />
+    <MESSAGE value="Day 6 – Validációk és hibakezelés hozzáadva" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 6 – Validációk és hibakezelés hozzáadva" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Autokolcsonzo_G80SBL$main.coverage" NAME="main Coverage Results" MODIFIED="1779090140433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Autokolcsonzo_G80SBL$main.coverage" NAME="main Coverage Results" MODIFIED="1779092950064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

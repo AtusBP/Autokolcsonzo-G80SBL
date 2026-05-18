@@ -1,16 +1,35 @@
 import datetime
 from autokolcsonzo import Autokolcsonzo
 
+# ---------------------------------------------------------
+# Segédfüggvény: dátum validálása (YYYY-MM-DD formátum)
+# ---------------------------------------------------------
 def datum_valid(datum: str):
+    """
+    Ellenőrzi, hogy a megadott dátum helyes-e.
+    A helyes formátum: YYYY-MM-DD
+    """
     try:
         datetime.datetime.strptime(datum, "%Y-%m-%d")
         return True
     except ValueError:
         return False
 
+
+# ---------------------------------------------------------
+# A program belépési pontja
+# ---------------------------------------------------------
 def main():
+    """
+    A főmenü működését vezérlő függvény.
+    Itt történik:
+    - az autókölcsönző példányosítása
+    - az előre feltöltött adatok betöltése
+    - a menü megjelenítése
+    - a felhasználói műveletek kezelése
+    """
     kolcsonzo = Autokolcsonzo()
-    kolcsonzo.elore_feltoltes()
+    kolcsonzo.elore_feltoltes()  # Példaadatok betöltése
 
     while True:
         print("\n--- AUTÓKÖLCSÖNZŐ ---")
@@ -20,12 +39,18 @@ def main():
         print("4. Bérlés lemondása")
         print("5. Kilépés")
 
+        # -----------------------------
+        # Menüválasztás validálása
+        # -----------------------------
         valasztas = input("Válassz egy menüpontot (1-5): ").strip()
 
         if valasztas not in ["1", "2", "3", "4", "5"]:
             print("Érvénytelen választás, próbáld újra.")
             continue
 
+        # -----------------------------
+        # 1. Autók listázása
+        # -----------------------------
         if valasztas == "1":
             autok = kolcsonzo.listaz_autok()
             if not autok:
@@ -35,6 +60,9 @@ def main():
                 for i, a in enumerate(autok, start=1):
                     print(f"{i}. {a}")
 
+        # -----------------------------
+        # 2. Bérlések listázása
+        # -----------------------------
         elif valasztas == "2":
             berlesek = kolcsonzo.listaz_berlesek()
             if not berlesek:
@@ -44,6 +72,9 @@ def main():
                 for i, b in enumerate(berlesek, start=1):
                     print(f"{i}. {b}")
 
+        # -----------------------------
+        # 3. Autó bérlése
+        # -----------------------------
         elif valasztas == "3":
             rendszam = input("Add meg a rendszámot: ").strip().upper()
             if not rendszam:
@@ -63,6 +94,9 @@ def main():
             siker, uzenet = kolcsonzo.berles(rendszam, datum, berlo)
             print(uzenet)
 
+        # -----------------------------
+        # 4. Bérlés lemondása
+        # -----------------------------
         elif valasztas == "4":
             rendszam = input("Add meg a rendszámot: ").strip().upper()
             if not rendszam:
@@ -72,9 +106,16 @@ def main():
             siker, uzenet = kolcsonzo.berles_lemondas(rendszam)
             print(uzenet)
 
+        # -----------------------------
+        # 5. Kilépés
+        # -----------------------------
         elif valasztas == "5":
             print("Kilépés...")
             break
 
+
+# ---------------------------------------------------------
+# Program indítása
+# ---------------------------------------------------------
 if __name__ == "__main__":
-    main()
+    main()5
