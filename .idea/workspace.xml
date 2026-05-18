@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="090e5ed4-21fc-4e85-9af5-6490fc8d9c04" name="Changes" comment="Day 7 – Kommentek hozzáadva">
-      <change beforePath="$PROJECT_DIR$/autokolcsonzo.py" beforeDir="false" afterPath="$PROJECT_DIR$/autokolcsonzo.py" afterDir="false" />
-    </list>
+    <list default="true" id="090e5ed4-21fc-4e85-9af5-6490fc8d9c04" name="Changes" comment="Day 7 – Kommentek hozzáadva" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +68,7 @@
       <workItem from="1777374412169" duration="2457000" />
       <workItem from="1778319167324" duration="669000" />
       <workItem from="1778582907576" duration="1553000" />
-      <workItem from="1779089929847" duration="3451000" />
+      <workItem from="1779089929847" duration="3485000" />
     </task>
     <task id="LOCAL-00001" summary="Day 1 – Projekt struktúra létrehozva">
       <option name="closed" value="true" />
@@ -128,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779102393914</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Day 7 – Kommentek hozzáadva">
+      <option name="closed" value="true" />
+      <created>1779102563698</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1779102563698</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
