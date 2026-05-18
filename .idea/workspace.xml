@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="090e5ed4-21fc-4e85-9af5-6490fc8d9c04" name="Changes" comment="Day 7 – Kommentek hozzáadva">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autokolcsonzo.py" beforeDir="false" afterPath="$PROJECT_DIR$/autokolcsonzo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
       <workItem from="1777374412169" duration="2457000" />
       <workItem from="1778319167324" duration="669000" />
       <workItem from="1778582907576" duration="1553000" />
-      <workItem from="1779089929847" duration="3279000" />
+      <workItem from="1779089929847" duration="3451000" />
     </task>
     <task id="LOCAL-00001" summary="Day 1 – Projekt struktúra létrehozva">
       <option name="closed" value="true" />
@@ -121,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779101605699</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Day 7 – Kommentek hozzáadva">
+      <option name="closed" value="true" />
+      <created>1779102393914</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1779102393914</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +144,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Day 7 – Kommentek hozzáadva" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Autokolcsonzo_G80SBL$main.coverage" NAME="main Coverage Results" MODIFIED="1779102367646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Autokolcsonzo_G80SBL$main.coverage" NAME="main Coverage Results" MODIFIED="1779102400286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
